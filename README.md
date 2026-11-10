@@ -190,6 +190,15 @@ The path between them is one-directional and informal: an idea usually starts as
 
 **Relationship to Stage 4:** Stage 4 remains the build - a real agent runtime on our serving contract. This sub-project is the study that makes that build a design from evidence rather than folklore.
 
+### A beginner's learning plan
+
+My goal is to understand how an agent calls tools and decides when to stop.
+
+- Understand the basic loop: model call, tool execution, and returning results to the model.
+- Build a small example in `agent-playground` with one simple tool, without an agent framework.
+- Record one successful run and one failed run, including the tool calls and results.
+- Write down what I learned and choose the next question based on those findings.
+
 * * *
 
 ## 8. Working agreements
